@@ -1,0 +1,15 @@
+{
+  "name": "native-renderer-abort",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "node-gyp configure build",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "22.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "9.3.1"
+  }
+}

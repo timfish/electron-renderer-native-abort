@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <script>
+      const { abort } = require("../build/Release/addon.node");
+
+      setTimeout(() => {
+        abort();
+      }, 500);
+    </script>
+  </body>
+</html>
